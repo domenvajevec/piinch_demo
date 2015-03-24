@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header ------------------------------------*/
+
+header {
+    width: 860px;
+    margin: 0 auto;
+    height: 75px;
+    background: #ccc;
+    border-bottom: 1px solid #333;
+}
+
+nav {
+    padding-top: 30px;
+}
+.nav-icons {
+    float: left;
+    width: 33%;
+}
+
+.nav-icons > div {
+    display: inline-block;
+    width: 40px;
+}
+
+.nav-title {
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+
+.nav-search-user {
+    width: 33%;
+    float: right;
+}
+
+
+/* Main Container -------------------------------------------*/
+.container {
+width: 860px;
+margin: 0 auto;
+}
+
+.col {
+    width: 220px;
+    background-color: #aaa697;
+}
+.col-left {
+    border-right: 1px solid black;
+}
+
+.col-mid {
+
+}
+
+.col-right {
+
+}
+
+/* user images--------- */
+.user-image {
+    border-radius: 30px 30px 0  30px;
+}
+.user-image-large{
+    width: 60px;
+}
+.user-image-medium{
+    width: 60px;
+}
+.user-image-small{
+    width: 26px;
+}
+/* section photos -----------*/
+.user-photos img {
+    width: 60px;
+    background: #ccc;
+    height: 60px;
+}
